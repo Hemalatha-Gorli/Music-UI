@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container" id="home">
+        <ul class="nav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#artist">ARTISTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="left-col">
+            <h1>MY <br> SOUNDS</h1>
+        </div>
+        <div class="left-col">
+            <p>Click Here To Listen</p>
+            <img src="./img/musicimg1.png" id="icon">
+        </div>
+    </div>
+
+    <audio id="mysound">
+        <source src="./img/hare-krishna.mp3" type="audio/mp3">
+    </audio>
+    <!--about start-->
+    <div class="soul" id="about">
+        <h1
+            style="text-align: center;color:antiquewhite;font-variant: small-caps;text-shadow: 5px 5px 5px rgb(202, 220, 41); font-size:34px;">
+            Soulmusic</h1><br>
+        <p style="font-variant: small-caps; color: aqua;"><br><br><br><br><br><br><br><br><br><br><br><br>
+            Soul music is a combination of R&B (Rhythm and Blues) and gospel music and began in the late 1950s in the
+            United States.<br>
+            While Soul has a lot in common with R&B, its differences include its use of gospel-music devices, its
+            greater emphasis on vocalists,
+            and its merging of religious and secular themes.<br>More than any other genre of popular American music,
+            Soul is the result of the
+            combination and merging of previous styles and substyles in the 1950s and 60s.<br> Broadly speaking,the soul
+            comes from a gospel (the sacred) and blues (the profane).<br>
+            Blues was mainly a musical style that praised the fleshly desire whereas gospel was more oriented toward
+            spiritual inspiration.<br><br>
+            The 1950s recordings of Black R&B performers Sam Cooke, Ray Charles, and James Brown are commonly considered
+            the beginnings of Soul music.<br>Following their success, White artists such as Elvis Presley and Buddy
+            Holly
+            adopted the sound, removing most of the gospel message but keeping the same musical techniques,
+            instrumentation, and feeling.<br>
+            Once it gained popularity among White musical groups, a new genre emerged called "Blue-Eyed Soul.<br>" The
+            Righteous Brothers actually named one of their albums Blue-Eyed Soul, while artists such as Dusty
+            Springfield and Tom Jones were sometimes described as blue-eyed soul singers because of the soulful nature
+            of their lyrics and sound.
+        </p>
+    </div>
+    <!--about end-->
+    <!--artist start-->
+    <div class="art" id="artist">
+        <h1 style="text-align: center;">Tony Scott</h1>
+        <img src="./img/tony.jpg" width="400px" height="400px">
+        <p>
+            Tony Scott (born Anthony Joseph Sciacca June 17, 1921 March 28, 2007) was an American jazz
+            clarinetist and arranger with an interest in folk music around the world.<br> For most of his career he was
+            held
+            in high esteem in new-age music circles because of his involvement in music linked to Asian cultures and to
+            meditation.<br>In 1959, he left New York City, where he had been based, and abandoned the United States for
+            a time.<br> In the 1960s, he toured South, East, and Southeast Asia.<br> This led to his playing in a Hindu
+            temple, spending time in Japan, and releasing Music for Zen Meditation in 1964 for Verve Records.<br> In
+            1960 a
+            DownBeat poll for Japan saw readers there name him best clarinetist while the United States preferred
+            Buddy DeFranco.
+        </p>
+    </div>
+    <!--arrtist end-->
+    <!--contact start-->
+    <section id="contact">
+        <h1 style="text-align: center;">Contact us</h1>
+        <div id="contactbox">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--contact end-->
+</body>
+<script src="./index.js"></script>
+
+</html>
